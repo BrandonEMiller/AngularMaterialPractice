@@ -21,17 +21,16 @@
     <![endif]-->
 
     <!-- Add your site or application content here -->
+    <md-toolbar class="md-theme-indigo">
+      <h1 class="md-toolbar-tools">Angular Material Practice</h1>
+    </md-toolbar>
     <section layout="row" flex>
-      <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-componet-id='left' md-is-locked-open="true">
-        <md-toolbar class="md-theme-indigo">
-          <h1 class="md-toolbar-tools">Angular Material Practice</h1>
-        </md-toolbar>
 
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#/">Home</a></li>
-                <li><a ng-href="#/about">About</a></li>
-                <li><a ng-href="#/">Contact</a></li>
-              </ul>
+
+      <md-sidenav class="md-sidenav-left md-whiteframe-z2" md-componet-id='left' md-is-locked-open="true">
+
+              <md-button class="md-primary" ng-href="#/">Home</md-button>
+              <md-button class="md-primary" ng-href="#/about">About</md-button>
 
       </md-sidenav>
 
@@ -49,7 +48,7 @@
 
     <div class="footer">
       <div class="container">
-        <p><span class="glyphicon glyphicon-heart"></span> from the Yeoman team</p>
+        <a href="http://www.brandonevanmiller.com">Brandon Miller</a>
       </div>
     </div>
 
