@@ -35,8 +35,54 @@ angular.module('angularMaterialPracticeApp')
           {
             name: 'BSA Lifeguard',
             length: 6
+          }
+        ],
+          'CDD': [
+            {
+              name: 'Citizenship in the Nation',
+              length: 1,
+              eagle: true
+            },
+            {
+              name: 'Communications',
+              length: 1,
+              eagle: true
+            }
+        ],
+        'Ecology': [
+          {
+            name: 'Bird Study',
+            length: 1,
+            eagle: false
           },
-        ]
+          {
+            name: 'Environmental Science',
+            length: 2,
+            eagle: true
+          },
+          {
+            name: 'Soil & Water Conservation',
+            length: 1,
+            eagle: false
+          }
+      ],
+      'FieldSports': [
+        {
+          name: 'Archery',
+          length: 2,
+          eagle: false
+        },
+        {
+          name: 'Rifle Shooting',
+          length: 1,
+          eagle: false
+        },
+        {
+          name: 'Shotgun Shooting',
+          length: 1,
+          eagle: false
+        }
+    ]
       },
        {
          'name': 'Period 2',
@@ -54,7 +100,48 @@ angular.module('angularMaterialPracticeApp')
             name: 'Learn to Swim',
             length: 1
           },
-        ]
+        ],
+        'CDD': [
+          {
+            name: 'Citizenship in the World',
+            length: 1,
+            eagle: true
+          },
+          {
+            name: 'Communications',
+            length: 1,
+            eagle: true
+          },
+          {
+            name: 'Citizenship in the Nation',
+            length: 1,
+            eagle: true
+          }
+        ],
+        'Ecology': [
+          {
+            name: 'Reptile & Amphibian Study',
+            length: 1,
+            eagle: false
+          },
+          {
+            name: 'Weather',
+            length: 1,
+            eagle: false
+          },
+          {
+            name: 'Plant Science',
+            length: 1,
+            eagle: false
+          }
+      ],
+      'FieldSports': [
+        {
+          name: 'Shotgun Shooting',
+          length: 1,
+          eagle: false
+        }
+    ]
       },
       {
         'name': 'Period 3',
@@ -64,7 +151,48 @@ angular.module('angularMaterialPracticeApp')
             name: 'Learn to Swim',
             length: 1
           },
-        ]
+        ],
+        'CDD': [
+          {
+            name: 'Citizenship in the World',
+            length: 1,
+            eagle: true
+          },
+          {
+            name: 'Citizenship in the Nation',
+            length: 1,
+            eagle: true
+          }
+        ],
+        'Ecology': [
+          {
+            name: 'Nuclear Science',
+            length: 1,
+            eagle: false
+          },
+          {
+            name: 'Space Exploration',
+            length: 1,
+            eagle: false
+          }
+      ],
+      'FieldSports': [
+        {
+          name: 'Archery',
+          length: 2,
+          eagle: false
+        },
+        {
+          name: 'Rifle Shooting',
+          length: 1,
+          eagle: false
+        },
+        {
+          name: 'Advanced Shotgun Shooting',
+          length: 1,
+          eagle: false
+        }
+    ]
       }
     ];
 

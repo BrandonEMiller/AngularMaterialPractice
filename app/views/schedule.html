@@ -7,6 +7,15 @@
   <div class="list-row-item aquatics-courses">
     Aquatics
   </div>
+  <div class="list-row-item cdd-courses">
+    Civil Development
+  </div>
+  <div class="list-row-item ecology-courses">
+    Ecology
+  </div>
+  <div class="list-row-item fieldSports-courses">
+    Field Sports
+  </div>
 </div>
 
 <div class="list-body">
@@ -23,6 +32,21 @@
     </div>
     <div class="list-row-item aquatics-courses" >
         <div class="course" ng-repeat="course in period.Aquatics">
+          {{course.name}}
+        </div>
+    </div>
+    <div class="list-row-item cdd-courses" >
+        <div class="course" ng-repeat="course in period.CDD">
+          {{course.name}}
+        </div>
+    </div>
+    <div class="list-row-item ecology-courses" >
+        <div class="course" ng-repeat="course in period.Ecology">
+          {{course.name}}
+        </div>
+    </div>
+    <div class="list-row-item fieldSports-courses" >
+        <div class="course" ng-repeat="course in period.FieldSports">
           {{course.name}}
         </div>
     </div>

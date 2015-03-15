@@ -81,3 +81,17 @@ body {
     border-bottom: 0;
   }
 }
+
+md-sidenav.md-sidenav-left.md-whiteframe-z2.md-closed.ng-isolate-scope.md-locked-open {
+  min-width: 100px;
+  width: 150px;
+
+}
+
+md-content.md-padding.md-default-theme {
+  width: calc(100vw - 150px);
+}
+
+.container {
+  max-width: none;
+}

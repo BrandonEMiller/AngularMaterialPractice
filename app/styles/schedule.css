@@ -19,11 +19,23 @@
   padding-top: 2px;
 }
 
-.list-row-item.time-item {
+.list-row-item {
   vertical-align: top;
   width: 150px;
 }
 
 .list-row-item.aquatics-courses {
+  width: 150px;
+}
+
+.list-row-item.cdd-courses {
+  width: 250px;
+}
+
+.list-row-item.ecology-courses {
+  width: 250px;
+}
+
+.list-row-item.fieldSports-courses {
   width: 200px;
 }
