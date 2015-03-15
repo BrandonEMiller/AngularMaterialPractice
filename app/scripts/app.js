@@ -30,7 +30,8 @@ angular
       })
       .when('/schedule', {
         templateUrl: 'views/schedule.html',
-        controller: 'ScheduleCtrl'
+        controller: 'ScheduleCtrl',
+        controllerAs: 'vm'
       })
       .otherwise({
         redirectTo: '/'

@@ -1,24 +1,30 @@
 <p>This is the schedule view.</p>
 
 <div class="list-header">
-  <div class="list-row-item">
+  <div class="list-row-item time-item">
+    Time
+  </div>
+  <div class="list-row-item aquatics-courses">
     Aquatics
   </div>
 </div>
 
 <div class="list-body">
-  <div class="list-row">
-    <div class="list-row-item">
-      <div class="">
-        Rowing
+  <div class="list-row" ng-repeat="period in vm.schedule">
+    <div class="list-row-item time-item">
+
+      <div class="course">
+        {{period.name}}
       </div>
-      <div class="">
-        BSA Lifeguard
-      </div>
-      <div class="">
-        Swimming
+      <div class="course">
+        {{period.time}}
       </div>
 
+    </div>
+    <div class="list-row-item aquatics-courses" >
+        <div class="course" ng-repeat="course in period.Aquatics">
+          {{course.name}}
+        </div>
     </div>
 
   </div>

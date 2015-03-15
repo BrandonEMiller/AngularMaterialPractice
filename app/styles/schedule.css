@@ -1,0 +1,29 @@
+.list-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.list-row .list-row-item,
+.list-header .list-row-item {
+  display: inline-block;
+
+}
+
+.list-header {
+  background-color: grey;
+}
+
+.list-row-item .course{
+  padding-bottom: 2px;
+  padding-top: 2px;
+}
+
+.list-row-item.time-item {
+  vertical-align: top;
+  width: 150px;
+}
+
+.list-row-item.aquatics-courses {
+  width: 200px;
+}
