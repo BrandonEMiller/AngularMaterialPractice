@@ -8,6 +8,7 @@
     <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
     <!-- build:css(.) styles/vendor.css -->
     <!-- bower:css -->
+    <link rel="stylesheet" href="bower_components/leaflet/dist/leaflet.css" />
     <!-- endbower -->
     <!-- endbuild -->
     <!-- build:css(.tmp) styles/main.css -->
@@ -33,6 +34,7 @@
               <md-button class="md-primary" ng-href="#/">Home</md-button>
               <md-button class="md-primary" ng-href="#/about">About</md-button>
               <md-button class="md-primary" ng-href="#/schedule">Schedule</md-button>
+              <md-button class="md-primary" ng-href="#/map">Map</md-button>
 
       </md-sidenav>
 
@@ -75,8 +77,8 @@
     <script src="bower_components/angular-route/angular-route.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
     <script src="bower_components/angular-touch/angular-touch.js"></script>
-    <script src="bower_components/angular-aria/angular-aria.min.js"></script>
-    <script src="bower_components/angular-material/angular-material.js"></script>
+    <script src="bower_components/leaflet/dist/leaflet.js"></script>
+    <script src="bower_components/leaflet/dist/leaflet-src.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -85,6 +87,7 @@
         <script src="scripts/controllers/main.js"></script>
         <script src="scripts/controllers/about.js"></script>
         <script src="scripts/controllers/schedule.js"></script>
+        <script src="scripts/controllers/map.js"></script>
         <!-- endbuild -->
 </body>
 </html>

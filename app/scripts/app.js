@@ -33,6 +33,11 @@ angular
         controller: 'ScheduleCtrl',
         controllerAs: 'vm'
       })
+      .when('/map', {
+        templateUrl: 'views/map.html',
+        controller: 'MapCtrl',
+        controllerAs: 'mapVM'
+      })
       .otherwise({
         redirectTo: '/'
       });
