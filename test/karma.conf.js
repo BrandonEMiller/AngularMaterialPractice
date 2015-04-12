@@ -26,6 +26,8 @@ module.exports = function(config) {
       'bower_components/angular-route/angular-route.js',
       'bower_components/angular-sanitize/angular-sanitize.js',
       'bower_components/angular-touch/angular-touch.js',
+      'bower_components/angular-aria/angular-aria.js',
+      'bower_components/angular-material/angular-material.js',
       'bower_components/leaflet/dist/leaflet.js',
       'bower_components/leaflet/dist/leaflet-src.js',
       'bower_components/angular-mocks/angular-mocks.js',
